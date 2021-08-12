@@ -1,0 +1,188 @@
+html{
+    background-color: rgb(255, 254, 247);
+    background-image: url("배경.jpg");
+    background-repeat: no-repeat;
+    background-size: 1400px 345px;
+    background-position-x: center;
+}
+
+body{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+
+/* 젤 윗부분 */
+#top{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#icon{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(247, 247, 247, 0);
+    border: none;
+    color: rgb(247, 247, 247);
+}
+
+
+
+/* 중간부분 */
+#middle{
+    box-sizing: border-box; 
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+/* 로그인 등 */
+#login{
+    height: 338px;
+}
+
+#menu{
+    height: 350px;
+}
+
+/* 오른쪽 내용 */
+
+
+#one{
+    display: grid;
+    height: min-content;
+    grid-template-columns: 2fr 1fr;
+}
+
+#first{
+    height: 1fr;
+}
+
+
+
+#name{
+    height: 1fr;
+}
+
+.name{
+    height: 50px;
+    }
+
+
+#two-four{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#five{
+    height: 200px;
+}
+
+#sixSeven{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: min-content;
+}
+
+
+.board{
+    height: 200px;
+}
+
+
+
+
+@media (max-width:1200px) {
+
+    #top{
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .left{
+        margin-left: 10px;
+    }
+
+
+    #r{
+        margin-right: 10px;
+    }
+
+    #one{
+        grid-template-columns: none;
+    }
+
+    #middle{
+        grid-template-columns: 1fr 2fr;
+    }
+
+    #first{
+        height: 338px;
+    }
+
+    #two-four{
+        grid-template-columns: none;
+    }
+
+    #five{
+        height: 250px;
+    }
+
+    #sixSeven{
+        grid-template-columns: none;
+    }
+
+    #six{
+        height: 400px
+    }
+
+    #name{
+        display: none;
+    }
+
+}
+
+@media (max-width: 1020px) {
+    .left{
+        margin-left: 60px;
+    }
+
+
+    #r{
+        margin-right: 60px;
+    }
+}
+
+
+@media (max-width:760px) {
+    #middle{
+        grid-template-columns: none;
+    }
+
+    .left{
+        display: none;
+    }
+
+    body{
+        margin: 0px;
+    }
+
+    #r{
+        margin: 0px;
+    }
+}
+
+
+
+
+
+
+/* 마지막부분 */
+#bottom{
+    box-sizing: border-box; 
+    height: 280px; 
+    background-color: gray;
+    margin-top: 50px;
+}
+
+

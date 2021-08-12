@@ -1,0 +1,17 @@
+
+.boxStyle{
+    background-color: white;
+    border-width: 0px;
+    border: solid rgba(128, 128, 128, 0) 0.5px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(112, 112, 112, 0.384);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+.name{
+margin: 20px;
+}
+
+
