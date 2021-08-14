@@ -7,6 +7,7 @@
     <title>ClonCording</title>
     <link rel="stylesheet" href="box.css" >
     <link rel="stylesheet" href="small_box.css">
+    <link rel="stylesheet" href="mediaQuary.css">
 
 
 </head>
@@ -14,12 +15,15 @@
 
 <body>
     <!-- 전체화면 -->
-    <div id = "total" >
-        
+
+
+    <div id = "background" >
+        <div id = "content">
+    
         <!-- 상단제목 -->
         <div id = "top">
 
-            <div>
+            <div id = "iconBox">
         <input id = "icon" class="left"  type="button" value="한마포" onclick="window.location.href = 'file:///C:/Users/%EB%B0%95%EA%B7%BC%EB%A0%AC/Desktop/Coding/%ED%95%9C%EB%A7%88%ED%8F%AC%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9/index.html'">
             </div>
             
@@ -37,15 +41,15 @@
         <!-- 로그인&메뉴&공지사항 -->
         <div id = "l" class="left" >
 
-            <div id = "login";  class="boxStyle">
+            <div id = "login";  class="l boxStyle">
                 로그인 id login
             </div>
 
-            <div id = "menu";  class="boxStyle">
+            <div id = "menu";  class="l boxStyle">
                 메뉴 id menu
             </div>
 
-            <div id = "notice";  class="board boxStyle">
+            <div id = "notice";  class="l board boxStyle">
                 공지 id notice
             </div>
 
@@ -84,7 +88,7 @@
             </div>
         </div>
 
-
+        
 
 
 
@@ -131,18 +135,22 @@
 
         </div>
 
-
-
-
-
         </div>
 
+
+
+
+
+        
+        </div>
+    
 
         <!-- 마지막 회색 -->
         <div id = "bottom" >
+            id bottom
 
         </div>
-    </div>
     
+</div>
 </body>
 </html>

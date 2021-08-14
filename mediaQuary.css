@@ -1,0 +1,70 @@
+
+@media (max-width:1200px) {
+    #content{
+        max-width: 1000px;
+    }
+
+    #top{
+        grid-template-columns: 1fr 2fr;
+    }
+
+    #one{
+        grid-template-columns: none;
+    }
+
+    #middle{
+        grid-template-columns: 1fr 2fr;
+    }
+
+    #first{
+        height: 338px;
+    }
+
+    #two-four{
+        grid-template-columns: none;
+    }
+
+    #five{
+        height: 250px;
+    }
+
+    #sixSeven{
+        grid-template-columns: none;
+    }
+
+    #six{
+        height: 400px
+    }
+
+    #name{
+        display: none;
+    }
+
+}
+
+@media (max-width: 1020px) {
+    #content{
+        max-width: 750px;
+    }
+}
+
+
+@media (max-width:760px) {
+    #middle{
+        grid-template-columns: none;
+    }
+
+    .l{
+        display: none;
+    }
+
+    #r{
+        margin: 0px;
+    }
+}
+
+
+
+
+
+
